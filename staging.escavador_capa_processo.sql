@@ -1,4 +1,4 @@
-CREATE TABLE staging.escavador.capa.processo (
+CREATE TABLE staging.escavador_capa_processo (
   numero_cnj                         VARCHAR(50)      NOT NULL,
   titulo_polo_ativo                  TEXT             ,
   titulo_polo_passivo                TEXT             ,
