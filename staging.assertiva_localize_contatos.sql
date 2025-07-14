@@ -6,8 +6,8 @@ CREATE TABLE staging.assertiva_localize_contatos (
   tipo_contato     TEXT,
   ultimo_contato   TIMESTAMPTZ,
   relacao          TEXT,
-  nao_perturbe     BOOLEAN         NOT NULL DEFAULT null,
-  whatsapp         BOOLEAN         NOT NULL DEFAULT null,
+  nao_perturbe     BOOLEAN         ,
+  whatsapp         BOOLEAN         ,
 
   CONSTRAINT uq_escavador_parte_contatos_contato_doc
     UNIQUE (contato, doc)
