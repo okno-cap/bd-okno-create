@@ -1,4 +1,4 @@
-CREATE TABLE staging.ws_comercial_cnpj (
+CREATE TABLE staging.ws_comercial_cnpj_socios (
   cnpj                            VARCHAR(18)     NOT NULL,
   razao_social                    TEXT,
   cpf_cnpj_socio                  VARCHAR(14),
